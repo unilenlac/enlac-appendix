@@ -122,7 +122,7 @@ def main(argv):
         for infile in fnmatch.filter(os.listdir (os.getcwd()), '*.xml'):
             with open (infile, encoding='utf-8') as f:
                 fl =f.readlines()
-                count_lb(fl, infile, outputfile)
+                count_lb(fl, infile, infile + "_lb.txt")
         sys.exit(0)
     if not(os.path.exists(inputfile)):
         print("Check input file.")
