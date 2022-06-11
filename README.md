@@ -1,5 +1,3 @@
-# enlac-appendix
-
 # Utilities for ENLAC Pipeline
 
 - transcription lb numbering check
