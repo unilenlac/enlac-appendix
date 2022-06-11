@@ -1,0 +1,4 @@
+FROM python:alpine3.7
+COPY python/transcription-lb.py /app/
+WORKDIR /home
+CMD python /app/transcription-lb.py
